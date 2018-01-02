@@ -1,0 +1,35 @@
+{
+  "name": "@freshes/suite",
+  "version": "1.0.0",
+  "description": "Wrap suite for @freshes components",
+  "main": "src/index.js",
+  "repository": "https://github.com/freshesx/suite.git",
+  "author": "Wu Qicheng <chasel.wu@vitualreaty.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^8.0.2",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^4.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^21.2.1",
+    "rollup": "^0.51.8",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-eslint": "^4.0.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.5.0"
+  }
+}
