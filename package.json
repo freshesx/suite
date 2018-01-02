@@ -2,7 +2,11 @@
   "name": "@freshes/suite",
   "version": "1.0.0",
   "description": "Wrap suite for @freshes components",
-  "main": "src/index.js",
+  "main": "dist/main.common.js",
+  "module": "dist/main.esm.js",
+  "files": [
+    "dist"
+  ],
   "repository": "https://github.com/freshesx/suite.git",
   "author": "Wu Qicheng <chasel.wu@vitualreaty.com>",
   "license": "MIT",
