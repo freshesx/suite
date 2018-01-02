@@ -8,6 +8,10 @@ export default {
     {
       file: `dist/main.esm.js`,
       format: 'es'
+    },
+    {
+      file: `dist/main.common.js`,
+      format: 'cjs'
     }
   ],
   plugins: [
