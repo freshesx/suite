@@ -1,5 +1,7 @@
-const Suite from './Suite'
+import Suite from './Suite'
 
-module.exports = function suite(elements, options) {
+export default function suite (elements, options) {
   return new Suite(elements, options)
 }
+
+export { Suite }

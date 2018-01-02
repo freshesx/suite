@@ -1,6 +1,6 @@
-class Suite {
+export default class Suite {
   constructor (elements, options) {
-    if (!Array.isArray(elements) elements = [elements]
+    if (!Array.isArray(elements)) elements = [elements]
     this.elements = elements
     this.options = options
   }
