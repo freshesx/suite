@@ -11,7 +11,7 @@ $ yarn add @freshes/suite
 ``` javascript
 import Vue from 'vue'
 import { suite } from '@freshes/suite'
-import btn from '@humans/btn'
+import { btn } from '@humans/btn'
 
 Vue.use(suite(btn))
 ```
