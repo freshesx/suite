@@ -1,6 +1,6 @@
 {
   "name": "@freshes/suite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrap suite for @freshes components",
   "main": "dist/main.common.js",
   "module": "dist/main.esm.js",
